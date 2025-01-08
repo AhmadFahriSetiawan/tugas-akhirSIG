@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistem Informasi Geografis</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Bagian 1-->
+    <div id="main">
+        <div class="container">
+            <nav>
+                <img src="assets/img/logo_unpak.png" alt="" class="logo" height="50px" >
+                <ul class="nav-list">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <!-- <li><button class="btn btn-secondary">202-505-3333</button></li> -->
+                </ul>
+                <img src="assets/img/menu.png" alt="" height="35" class="menu-btn">
+            </nav>
+            <div class="main-content">
+                <h1 class="intro-heading">SISTEM INFORMASI GEOGRAFIS</h1>
+                <h1 class="main-heading">Lokasi Shell di Kota Jakarta</h1>
+                <!-- <p>Shell Adalah pengisian bahan bakar perusahaan Swasta yang menyediakan berbagai macam rone bahan bakar</p> -->
+                <!-- <button class="btn btn-primary"  > Go To Maps </button> -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Bagian 2 -->
+     <section id="services">
+        <div class="container">
+            <div class="section-title">
+                <h1>Tentang Kami</h1>
+                <div class="line"></div>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="assets/img/shell2.jpg" alt="" height="622">
+                    <h3>Pom Shell</h3>
+                    <p>Pengisian Bahan Bakar Untuk Kendaran</p>
+                </div>                
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="assets/img/bengkel.jpg" alt="">
+                    <h3>Service</h3>
+                    <p>Menyediakan Layanan Perbaikan Kendaraan</p>
+                </div>                
+            </div>
+            <div class="services">
+                <div class="service">
+                    <img src="assets/img/select.jpg" alt="">
+                    <h3>Minimarket</h3>
+                    <p>Menyediakan Makanan dan Minuman serta kebutuhan lainnya untuk costumer</p>
+                </div>                
+            </div>
+        </div>
+     </section>
+
+    <!-- Bagian 3 -->
+    <section id="testimonial">
+        <div class="container">
+            <img src="assets/img/kutip.png" alt="" height="50">
+            <h1>"You Can Be Sure of Shell"</h1>
+            <div class="profile">
+                <img src="assets/img/logo_shell.png" alt="" height="50">
+                <!-- <h4>Shell</h4> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about-us">
+        <div class="container">
+            <div class="about-content">
+                <h4>Tentang Kami</h4>
+                <h1>
+                    perusahaan energi dan petrokimia global yang bergerak di bidang eksplorasi, produksi, pengilangan, dan pemasaran minyak dan gas alam
+                </h1>
+                <p>Shell juga memproduksi dan memasarkan bahan kimia, serta berinvestasi pada ketenagalistrikan dan pengisian kendaraan listrik. </p>
+                <button class="btn btn-primary">Hubungi Kami</button>
+            </div>
+            <div class="about-image">
+                <img src="assets/img/shell3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian 4 -->
+     <!-- <section id="questions">
+        <div class="container">
+            <h1>Pertanyaan</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente veniam quae expedita quia incidunt, impedit, ipsam similique eius ipsum possimus atque soluta sit exercitationem tenetur ab repellat, laboriosam deserunt consequatur.
+            </p>
+            <button class="btn btn-primary">Hubungi Costumer Service</button>
+        </div>
+     </section> -->
+
+     <!-- Footer -->
+    <footer>
+        <div class="container">
+            <ul class="nav-list">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="maps.html">Maps</a></li>
+                </ul>
+                <img src="assets/img/logo_unpak.png" alt="" class="foooterLogo" height="50">
+                <p>Tugas Akhir Sistem Informasi Geografis</p>
+        </div>
+        
+        
+    </footer>
+        
+
+    <script>
+        const navBtn = document.querySelector(".menu-btn");
+        const navList = document.querySelector(".nav-list");
+
+        navBtn.addEventListener("click", function () {
+            navList.classList.toggle("active");
+        });
+    </script>  
+</body>
+</html>

@@ -19,10 +19,48 @@
             padding: 0;
             margin: 0;
         }
+        #topbar {
+            width: 100%;
+            height: 60px;
+            background-color: #ffd936; /* warna */
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 1001;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            font-family: 'Arial', sans-serif;
+        }
+        
+        #topbar h1 {
+            font-size: 20px;
+            color: #ffffff; /* Warna teks putih */
+            margin: 0;
+            text-align: center;
+            flex-grow: 1; /* Pusatkan teks */
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        #unpak {
+            height: 40px; /* Sesuaikan ukuran logo */
+            margin-left: 10px; /* Jarak dari tepi kiri */
+            margin-right: 20px; /* Jarak antara logo dan teks */
+        }
+        #map {
+            margin-top: 60px; /* Geser peta ke bawah sesuai tinggi bar atas */
+            height: calc(100% - 60px); /* Kurangi tinggi peta agar menyesuaikan */
+        }
         </style>
         <title></title>
     </head>
     <body>
+        <header id="topbar">
+            <img src="assets/img/logo_unpak.png" alt="unpak" id="unpak">
+            <h1>Sebaran Shell di Jakarta</h1>
+        </header>
         <div id="map">
         </div>
         <script src="js/qgis2web_expressions.js"></script>
